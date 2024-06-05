@@ -1,12 +1,1 @@
-{
-  "events": [
-    {
-      "title": "A new event",
-      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
-      "date": "2022-10-01",
-      "description": "Some awesome event!",
-      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-    }
-  ],
-  "users": []
-}
+{"events":[{"title":"Morte da humanidade","image":"https://www.americamagazine.org/sites/default/files/styles/article_large_header_image/public/main_image/2024/02/08/VanE.jpg.jpg?itok=Fseskskp","date":"2024-06-29","description":"sucumbam!!!","id":"38565721-0e03-412c-95db-b152ba4b440c"},{"title":"Bell Marques","image":"https://www.alucare.fr/wp-content/uploads/2023/08/Naruto-scaled.jpg","date":"2024-06-05","description":"kkkkkkkkkkkkkkkkkkkkkkkk latam kkkkkkkkkkkkkkk","id":"ea126ae9-880f-4ca8-9b46-5d4ade3717ff"}],"users":[{"email":"miguelccpa21@gmail.com","password":"$2a$12$JC/HRz096OYfH5nR3LfQRePtLr2vTJJ8zfK583kiwERk0C4hKPyRu","id":"b452ce23-2e62-4ba3-9d8b-c72d8d621fd2"},{"email":"miguelccpa21@gmail.comaa","password":"$2a$12$oU3ZXMAkaOT4Y9Dv3n1Q7e2bJlF.6lkLwdSSeWc0Pk.201neviNRG","id":"cbc6502a-47ba-4399-b9a9-beed7f483131"},{"email":"miguel@gmail.com","password":"$2a$12$RcXeGOgOLCQgc3YID8FWXu3rFFbKEtRA10t67LQljWFWpZDKrkZ1O","id":"3af62d87-a5ac-4dbb-b46b-941323f7e602"},{"email":"miguelccpa@gmail.com","password":"$2a$12$aG5TwLzvwlCujNL2F/rxU.rJgr58aWz7sp0tIzb/WfAYxiFFA1MOm","id":"8a0b0e5d-eb9c-4ce1-9e32-f76b49f4ed19"}]}

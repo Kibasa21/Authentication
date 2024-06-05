@@ -9,6 +9,7 @@ import {
 
 import EventItem from '../components/EventItem';
 import EventsList from '../components/EventsList';
+import { getAuthToken } from '../util/auth';
 
 function EventDetailPage() {
   const { event, events } = useRouteLoaderData('event-detail');
@@ -78,8 +79,12 @@ export async function loader({ request, params }) {
 
 export async function action({ params, request }) {
   const eventId = params.eventId;
+  const token = getAuthToken(); //O método getAuthToken() retorna o token armazenado no LocalStorage
   const response = await fetch('http://localhost:8080/events/' + eventId, {
     method: request.method,
+    headers: {
+      'Authorization': 'Bearer ' + token,//O cabeçalho 'Authorization' é usado para conter informações de autenticação para o servidor, o Bearer é um tipo de autenticação que é usado para autenticar usuários
+    }
   });
 
   if (!response.ok) {
